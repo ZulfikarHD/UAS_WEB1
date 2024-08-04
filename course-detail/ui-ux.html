@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursus UI/UX - Belajar Bareng</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <script src="../assets/js/scripts.js" defer></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header: Bagian atas halaman yang berisi logo, judul, dan navigasi -->
+    <header class="bg-slate-700 p-4 text-white">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <!-- Logo dan judul -->
+            <div class="flex items-center">
+                <img src="../assets/images/logo.png" alt="Belajar Bareng Logo" class="h-12 md:h-16 mb-4 md:mb-0">
+                <h1 class="text-3xl md:text-4xl font-bold mb-4 md:mb-0">Belajar Bareng</h1>
+            </div>
+            <!-- Menu navigasi -->
+            <nav class="flex flex-wrap justify-center">
+                <a href="../index.html" class="mx-2 my-1 hover:underline">Beranda</a>
+                <a href="../about.html" class="mx-2 my-1 hover:underline">Tentang</a>
+                <a href="../courses.html" class="mx-2 my-1 hover:underline">Kursus</a>
+                <a href="../contact.html" class="mx-2 my-1 hover:underline">Kontak</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 pt-8 pb-20">
+        <!-- Bagian Detail Kursus: Menampilkan informasi umum tentang kursus UI/UX -->
+        <section>
+            <h2 class="text-3xl font-semibold mb-4">Detail Kursus UI/UX</h2>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold">Instruktur: Juxtopposed</h3>
+                <p class="mt-2">Deskripsi: Pelajari dasar-dasar UI/UX untuk merancang antarmuka pengguna yang menarik dan pengalaman pengguna yang optimal. Kursus ini mencakup prinsip-prinsip desain, wireframing, dan prototyping.</p>
+            </div>
+        </section>
+        <!-- Bagian Konten Kursus: Menampilkan daftar konten yang tersedia dalam kursus -->
+        <section class="mt-8">
+            <h3 class="text-2xl font-semibold mb-4">Konten Kursus</h3>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Video Pembelajaran</li>
+                    <li>Materi Bacaan</li>
+                    <li>Kuis dan Tugas</li>
+                    <li>Proyek Akhir</li>
+                    <li>Diskusi Kelompok</li>
+                </ul>
+            </div>
+        </section>
+        <!-- Bagian Video Pembelajaran: Menampilkan video pengantar kursus UI/UX -->
+        <section class="mt-8">
+            <h3 class="text-2xl font-semibold mb-4">Video Pembelajaran</h3>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <video class="w-full rounded-lg" controls>
+                    <source src="../assets/videos/ui-ux-intro.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+            </div>
+        </section>
+        <!-- Bagian Materi Bacaan: Menampilkan informasi tentang materi bacaan yang tersedia -->
+        <section class="mt-8">
+            <h3 class="text-2xl font-semibold mb-4">Materi Bacaan</h3>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <article>
+                    <h4 class="text-xl font-semibold">Dasar-dasar UI/UX</h4>
+                    <p>Materi ini membahas tentang dasar-dasar UI/UX, termasuk prinsip-prinsip desain, wireframing, dan prototyping.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Unduh Materi Bacaan</a>
+                </article>
+            </div>
+        </section>
+        <!-- Bagian Kuis dan Tugas: Menampilkan informasi tentang kuis dan tugas yang tersedia -->
+        <section class="mt-8">
+            <h3 class="text-2xl font-semibold mb-4">Kuis dan Tugas</h3>
+            <div class="bg-white p-6 rounded-lg shadow-lg space-y-4">
+                <!-- Informasi Kuis -->
+                <div>
+                    <h4 class="text-xl font-semibold">Kuis 1: Dasar-dasar UI/UX</h4>
+                    <p>Kuis ini menguji pengetahuan Anda tentang dasar-dasar UI/UX, termasuk prinsip-prinsip desain dan wireframing.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Mulai Kuis</a>
+                </div>
+                <!-- Informasi Tugas -->
+                <div>
+                    <h4 class="text-xl font-semibold">Tugas 1: Membuat Wireframe Sederhana</h4>
+                    <p>Tugas ini meminta Anda untuk membuat wireframe sederhana yang mencakup elemen-elemen dasar seperti layout, navigasi, dan interaksi.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Lihat Tugas</a>
+                </div>
+            </div>
+        </section>
+        <!-- Bagian Proyek Akhir: Menampilkan informasi tentang proyek akhir kursus -->
+        <section class="mt-8">
+            <h3 class="text-2xl font-semibold mb-4">Proyek Akhir</h3>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div>
+                    <h4 class="text-xl font-semibold">Proyek Akhir: Merancang Aplikasi Mobile</h4>
+                    <p>Proyek akhir ini mengharuskan Anda untuk merancang sebuah aplikasi mobile yang menampilkan prinsip-prinsip UI/UX dengan menggunakan wireframing dan prototyping.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Detail Proyek Akhir</a>
+                </div>
+            </div>
+        </section>
+        <!-- Bagian Diskusi Kelompok: Menampilkan informasi tentang forum diskusi -->
+        <section class="mt-8">
+            <h3 class="text-2xl font-semibold mb-4">Diskusi Kelompok</h3>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div>
+                    <h4 class="text-xl font-semibold">Forum Diskusi: Pembelajaran UI/UX</h4>
+                    <p>Diskusikan berbagai topik terkait pembelajaran UI/UX dengan sesama peserta kursus di forum ini.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Masuk ke Forum Diskusi</a>
+                </div>
+            </div>
+        </section>
+        <!-- Bagian Audio: Menampilkan pemutar audio yang dapat diputar berulang -->
+        <section class="mt-12 container mx-auto">
+            <audio id="loopAudio" class="w-full" controls loop>
+                <source src="../assets/audios/audio.mp3" type="audio/mpeg">
+                Browser Anda tidak mendukung tag audio.
+            </audio>
+        </section>
+    </main>
+    <!-- Footer: Bagian bawah halaman yang berisi informasi hak cipta -->
+    <footer class="bg-gray-800 text-white text-center p-4 mt-8 fixed bottom-0 left-0 right-0">
+        &copy; 2024 Website Edukasi - Belajar Bareng @By Zulfikar Hidayatullah
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

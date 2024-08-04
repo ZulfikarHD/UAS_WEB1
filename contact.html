@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Belajar Bareng</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header: Bagian atas halaman yang berisi logo, judul, dan navigasi -->
+    <header class="bg-slate-700 p-4 text-white shadow-md">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <!-- Logo dan judul -->
+            <div class="flex items-center">
+                <img src="assets/images/logo.png" alt="Belajar Bareng Logo" class="h-12 md:h-16 mb-4 md:mb-0">
+                <h1 class="text-3xl md:text-4xl font-bold ml-4">Belajar Bareng</h1>
+            </div>
+            <!-- Menu navigasi -->
+            <nav class="flex flex-wrap justify-center">
+                <a href="index.html" class="mx-2 my-1 text-lg hover:underline">Beranda</a>
+                <a href="about.html" class="mx-2 my-1 text-lg hover:underline">Tentang</a>
+                <a href="courses.html" class="mx-2 my-1 text-lg hover:underline">Kursus</a>
+                <a href="contact.html" class="mx-2 my-1 text-lg hover:underline">Kontak</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 py-8">
+        <!-- Bagian Kontak: Menampilkan formulir kontak -->
+        <section>
+            <h2 class="text-3xl font-semibold mb-4 text-center">Kontak Kami</h2>
+            <p class="text-lg text-center mb-8">Jika Anda memiliki pertanyaan atau membutuhkan bantuan, jangan ragu untuk menghubungi kami melalui formulir di bawah ini.</p>
+            <!-- Formulir kontak -->
+            <form id="contactForm" class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-lg space-y-4">
+                <!-- Input nama -->
+                <div>
+                    <label for="name" class="block text-gray-700 font-semibold">Nama</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Nama Anda">
+                </div>
+                <!-- Input email -->
+                <div>
+                    <label for="email" class="block text-gray-700 font-semibold">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email Anda">
+                </div>
+                <!-- Input pesan -->
+                <div>
+                    <label for="message" class="block text-gray-700 font-semibold">Pesan</label>
+                    <textarea id="message" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" rows="4" placeholder="Pesan Anda"></textarea>
+                </div>
+                <!-- Tombol kirim -->
+                <button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">Kirim</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer: Bagian bawah halaman yang berisi informasi hak cipta -->
+    <footer class="bg-gray-800 text-white text-center p-4 mt-8 fixed bottom-0 left-0 right-0">
+        &copy; 2024 Website Edukasi - Belajar Bareng @By Zulfikar Hidayatullah
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
